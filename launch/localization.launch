@@ -1,8 +1,8 @@
 <launch>
   <arg name="map" default="$(find simple_localization)/maps/bigfactory.yaml"/>
   <param name="/use_sim_time" value="false"/>
-  <arg name="x_pos" default="-0.0746"/>
-  <arg name="y_pos" default="0.1472"/>
+  <arg name="x_pos" default="4.0861"/>
+  <arg name="y_pos" default="0.4958"/>
   <arg name="yaw" default="0.0"/>
 
   <node pkg="tf" type="static_transform_publisher" name="base_link_to_laser" 
