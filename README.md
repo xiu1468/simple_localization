@@ -1,2 +1,4 @@
 # simple_localization
-use amcl and laser_scan_matcher to do localization
+使用人機介面開啟:
+終端機開啟:
+
